@@ -23,3 +23,27 @@
     margin: 16px 0 32px;
 }
 
+@media only screen and (max-width:426px) {
+    .info {
+        padding: 0;
+        width: 100%;
+        background-size: 200px 400px;
+        background-position: bottom right;
+    }
+
+    .info__content {
+        width: 100%;
+    }
+
+    .info__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .info__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}
+
