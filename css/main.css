@@ -760,13 +760,6 @@ img {
   left: calc(50% + 580px);
 }
 
-@media only screen and (max-width: 321px) {
-  .footer__img {
-    width: 280px;
-    height: 142px;
-  }
-}
-
 @media only screen and (max-width: 426px) {
   .scroll {
     width: 37px;
@@ -776,6 +769,17 @@ img {
   }
   .scroll__img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 331px) {
+  .footer__img {
+    width: 280px;
+    height: 142px;
+  }
+  .scroll {
+    top: calc(50% + 100px);
+    left: calc(50% + 100px);
   }
 }
 /*# sourceMappingURL=main.css.map */
