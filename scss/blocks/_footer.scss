@@ -1,0 +1,16 @@
+.footer{
+   padding: 0px 0px 100px 0px;
+}
+.footer__inner{
+   display: flex;
+   flex-direction: column;
+}
+.footer__picture{
+   margin: 0px auto;
+}
+.scroll{
+   position: fixed;
+   z-index: 2;
+   top: calc(50% + 250px);
+   left: calc(50% + 580px);
+}

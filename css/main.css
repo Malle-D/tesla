@@ -386,7 +386,10 @@ body {
   font-family: 'Arial', 'sans-serif';
   margin: 0;
   padding: 0;
-  background-color: #fefcf7;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 img {
@@ -472,5 +475,92 @@ img {
 .header__link:hover {
   background-color: #fff;
   color: #000000;
+}
+
+.hero {
+  padding: 200px 0px;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__item:nth-child(2) {
+  margin-top: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.hero__info {
+  width: 528px;
+  margin-right: 42px;
+}
+
+.hero__info--left {
+  margin-right: 0px;
+  margin-left: 42px;
+}
+
+.hero__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+
+.hero__describtion {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.footer {
+  padding: 0px 0px 100px 0px;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__picture {
+  margin: 0px auto;
+}
+
+.scroll {
+  position: fixed;
+  z-index: 2;
+  top: calc(50% + 250px);
+  left: calc(50% + 580px);
 }
 /*# sourceMappingURL=main.css.map */
