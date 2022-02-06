@@ -42,3 +42,43 @@
    color: #FFFFFF;
    margin: 0px;
 }
+
+@media only screen and (max-width: 426px){
+   .hero{
+      padding: 180px 0px 180px 0px;
+   }
+   .hero__item{
+      flex-direction: column;
+   }
+   .hero__item:nth-child(2){
+      margin-top: 70px;
+      flex-direction: column;
+   }
+   .hero__info{
+      width: 365px;
+      margin: 0px;
+      margin-bottom: 28px;
+   }
+   .hero__info--left{
+      margin-left: 0px;
+   }
+   .hero__img{
+      width: 385px;
+      height: 220px;
+   }
+}
+
+@media only screen and (max-width: 376px){
+   .hero__info{
+      width: 335px;
+   }
+}
+@media only screen and (max-width: 365px){
+   .hero__info{
+      width: 295px;
+   }
+   .hero__img{
+      width: 280px;
+      height: 159px;
+   }
+}
