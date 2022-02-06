@@ -616,6 +616,10 @@ img {
   .hero__info {
     width: 335px;
   }
+  .hero__img {
+    width: 335px;
+    height: 190px;
+  }
 }
 
 @media only screen and (max-width: 365px) {
@@ -650,6 +654,10 @@ img {
   font-size: 20px;
   line-height: 30px;
   margin: 16px 0 32px;
+}
+
+.info__img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 426px) {
@@ -709,7 +717,7 @@ img {
 
 @media only screen and (max-width: 426px) {
   .performance {
-    padding: 0;
+    padding: 0 0 100px;
     width: 100%;
     background-size: 200px 400px;
     background-position: bottom right;
@@ -763,6 +771,11 @@ img {
   .scroll {
     width: 37px;
     height: 37px;
+    top: calc(50% + 90px);
+    left: calc(50% + 130px);
+  }
+  .scroll__img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
