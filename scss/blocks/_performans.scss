@@ -1,0 +1,30 @@
+.performance {
+    padding: 200px 0;
+    background-image: url("../../img/performans-bg.png");
+    background-repeat: no-repeat;
+    background-position: center  right;
+}
+
+.performance__picture {
+    display: block;
+    width: 100%;
+}
+
+.performance__content {
+    width: 80%;
+}
+
+.performance__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.performance__text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 16px 0 32px;
+}
+

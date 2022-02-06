@@ -388,8 +388,11 @@ body {
   padding: 0;
   background-color: #000;
   color: #fff;
+<<<<<<< HEAD
   position: relative;
   z-index: 1;
+=======
+>>>>>>> 6f419bd8e2729a729031c3f5bfe83e1d6e9acb85
 }
 
 img {
@@ -477,6 +480,7 @@ img {
   color: #000000;
 }
 
+<<<<<<< HEAD
 .hero {
   padding: 200px 0px;
 }
@@ -562,5 +566,59 @@ img {
   z-index: 2;
   top: calc(50% + 250px);
   left: calc(50% + 580px);
+=======
+.info__picture {
+  display: block;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.info__content {
+  width: 80%;
+}
+
+.info__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  margin: 0;
+}
+
+.info__text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 16px 0 32px;
+}
+
+.performance {
+  padding: 200px 0;
+  background-image: url("../../img/performans-bg.png");
+  background-repeat: no-repeat;
+  background-position: center  right;
+}
+
+.performance__picture {
+  display: block;
+  width: 100%;
+}
+
+.performance__content {
+  width: 80%;
+}
+
+.performance__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  margin: 0;
+}
+
+.performance__text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 16px 0 32px;
+>>>>>>> 6f419bd8e2729a729031c3f5bfe83e1d6e9acb85
 }
 /*# sourceMappingURL=main.css.map */
